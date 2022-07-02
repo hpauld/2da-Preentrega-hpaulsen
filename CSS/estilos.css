@@ -458,9 +458,6 @@ span {
  .menu_items{
   flex-direction: column;
   }
-.seccion1{
-  /* padding-top: 500px; */
-}
   .textos_seccion1 {
     font-size: 25px;
   }
