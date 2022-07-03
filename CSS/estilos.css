@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -43,7 +44,7 @@ nav {
 .menu_items {
   display: flex;
   list-style: none;
-  
+
 }
 
 .menu_items a {
@@ -421,57 +422,3 @@ span {
 
 
 
-/* Medias query*/
-@media screen and (max-width: 991px) {
-  .menu_items li {
-    padding: 10px;
-  }
-
-  .seccion3 p {
-    font-size: 30px;
-  }
-
-  .seccion4 {
-    font-size: 35px;
-  }
-
-  .nosotros {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .img_nosotros {
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  header {
-    flex-direction: column;
-    height: auto;
-    justify-content: center;
-    
-  }
-}
-
-@media screen and (max-width: 360px) {
-  
- .menu_items{
-  flex-direction: column;
-  }
-  .textos_seccion1 {
-    font-size: 25px;
-  }
-
-  .textoInicial {
-    font-size: 20px;
-  }
-
-  .call_btn {
-    height: 90px;
-    width: 250px;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 15px;
-  }
-
-}
